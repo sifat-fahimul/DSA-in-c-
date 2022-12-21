@@ -6,17 +6,17 @@ int main()
 {
     int n;
     cin >> n;
-    int i = 1;
+    int row = 1;
 
-    while (i <= n)
+    while (row <= n)
     {
-        int j = 1;
-        while (j <= n)
+        int col = 1;
+        while (col <= n)
         {
             cout << " * ";
-            j++;
+            col++;
         }
         cout << endl;
-        i++;
+        row++;
     }
 }
