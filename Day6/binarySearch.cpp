@@ -33,7 +33,7 @@ int main()
 {
     int arr[6] = {2, 4, 6, 8, 68, 76};
 
-    int res = binarySearch(arr, 6, 2);
+    int res = binarySearch(arr, 6, 8);
 
     cout << "result : " << res;
 }
