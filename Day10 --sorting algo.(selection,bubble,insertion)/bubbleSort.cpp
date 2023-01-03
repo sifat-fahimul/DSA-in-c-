@@ -1,4 +1,7 @@
 #include <bits/stdc++.h>
+#include <vector>
+using namespace std;
+
 void bubbleSort(vector<int> &arr, int n)
 {
     for (int i = 1; i < n; i++)
