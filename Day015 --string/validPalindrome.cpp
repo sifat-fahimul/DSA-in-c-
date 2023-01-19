@@ -49,7 +49,7 @@ public:
     bool isPalindrome(string s)
     {
 
-        // faltu character hatado
+        // remove all irrelevant character
         string temp = "";
 
         for (int j = 0; j < s.length(); j++)
@@ -60,7 +60,7 @@ public:
             }
         }
 
-        // lowercase me kardo
+        // convert to lowercase
         for (int j = 0; j < temp.length(); j++)
         {
             temp[j] = toLowerCase(temp[j]);

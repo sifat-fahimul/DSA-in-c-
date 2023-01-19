@@ -19,13 +19,13 @@ void merge(int arr1[], int n, int arr2[], int m, int arr3[])
         }
     }
 
-    // copy first array k element ko
+    // copy first array element
     while (i < n)
     {
         arr3[k++] = arr1[i++];
     }
 
-    // copy kardo second array k remaining element ko
+    // copy second array remaining element
     while (j < m)
     {
         arr2[k++] = arr2[j++];

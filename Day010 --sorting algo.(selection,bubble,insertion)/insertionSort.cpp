@@ -17,7 +17,7 @@ void insertionSort(int n, vector<int> &arr)
                 arr[j + 1] = arr[j];
             }
             else
-            { // ruk jao
+            { // stop
                 break;
             }
         }
